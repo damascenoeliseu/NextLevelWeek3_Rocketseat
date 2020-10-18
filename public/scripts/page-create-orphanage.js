@@ -1,5 +1,8 @@
+const lat = localStorage.getItem('lat');
+const lng = localStorage.getItem('lng');
+
 // create map
-const map = L.map('mapid').setView([-27.222633, -49.6455874], 15);
+const map = L.map('mapid').setView([lat, lng], 15);
 
 
 // create and add tileLayer

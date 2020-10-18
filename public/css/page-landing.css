@@ -1,5 +1,6 @@
 #page-landing {
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
+    /* background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat; */
+    background: radial-gradient(circle at 9.44% -7.92%, #8de3ff 0, #46bdf9 50%, #0098de 100%);
     text-align: center;
     min-height: 100vh;
     display: flex;
@@ -52,7 +53,7 @@ main h1 {
 /* Desktop version */
 
 @media(min-width:760px) {
-    #container{
+    #container {
         padding: 5rem 2rem;
         /* shorthand background: image repeat position / size */
         background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);

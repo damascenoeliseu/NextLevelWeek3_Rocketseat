@@ -7,7 +7,8 @@
 aside {
     width: clamp(24rem, 25vw, 44rem);
     /* Gradiente / Blue */
-    background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+    /* background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%); */
+    background: radial-gradient(circle at 9.44% -7.92%, #8de3ff 0, #46bdf9 50%, #0098de 100%);
     padding: clamp(3rem, 5vw, 8rem);
     display: flex;
     flex-direction: column;
@@ -43,7 +44,8 @@ a.create-orphanage {
     z-index: 10;
     width: 6.4rem;
     height: 6.4rem;
-    background: #15c3d6;
+    /* background: #15c3d6; */
+    background: rgb(8,156,225);
     border: 0;
     border-radius: 2rem;
     display: flex;
@@ -53,7 +55,8 @@ a.create-orphanage {
 }
 
 a.create-orphanage:hover {
-    background: #17d6eb;
+    /* background: #17d6eb; */
+    background: rgb(50,167,233);
 }
 
 .leaflet-popup-content-wrapper {
@@ -72,7 +75,8 @@ a.create-orphanage:hover {
 .leaflet-popup-content a {
     width: 4rem;
     height: 4rem;
-    background: #15c3d6;
+    /* background: #15c3d6; */
+    background: rgb(8,156,225);
     box-shadow: 17.2868px 27.65px 41.48px rgba(23, 142, 166, 0.16);
     border-radius: 12px;
     display: flex;
@@ -82,7 +86,8 @@ a.create-orphanage:hover {
 }
 
 .leaflet-popup-content a:hover {
-    background: #17d6eb;
+    /* background: #17d6eb; */
+    background: rgb(50,167,233);
 }
 
 .leaflet-popup-tip {
