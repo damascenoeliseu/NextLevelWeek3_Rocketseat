@@ -75,6 +75,17 @@ function toggleSelect(event) {
     button.classList.add('active');
 
     const input = document.querySelector("[name='open_on_weekends']");
-    
+
     input.value = button.dataset.value;
+}
+
+
+function validate(event) {
+    const lat = document.querySelector("[name=lat]").value;
+    const lng = document.querySelector("[name=lng]").value;
+
+    if (lat == "" || lng == "") {
+        event.preventDefault();
+        alert("Adicione uma localização no mapa.");
+    }
 }
